@@ -1,0 +1,142 @@
+<div>
+    <div class="back">
+
+        <div class="down">
+            <app-navbar></app-navbar>
+        </div>
+        <br><br>
+        <div class="place1 row">
+            <div class="col-1"></div>
+            <h2 class="head" style="margin-top: 50px;">Wayanad</h2>
+        </div>
+        <div class="place1 row">
+            <div class="col-1 "></div>
+            <p style="color:white; width: 552px;">
+                The scenic drive through the trail to reach both Thollayiram (900) Kandi and Aranamala, is every bit as intriguing and adventurous, even on a hot summer day weather inside the forest is cold and refreshing which makes both places a wonderland.
+            </p>
+        </div>
+    </div>
+
+
+    <section class=" top">
+        <div class="row">
+            <div class="col-1"></div>
+            <div>
+                <p class="title">
+                    Our Locations
+                </p>
+                <p class="description">
+                    Browse our destinations for your holiday.
+                </p>
+            </div>
+        </div>
+        <div class="container">
+            <div fxLayout="row ">
+                <div fxFlex="25%" *ngFor="let card of cards">
+                    <div class="example-card">
+                        <img [src]="card.img">
+                        <p>{{card.title}}</p>
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="top">
+        <div class="row">
+            <div class="col-1"></div>
+            <div>
+                <p class="title">
+                    Popular Experiences
+                </p>
+                <p class="description">
+                    Browse exciting, adventurous and fun-filled activities for your holiday.
+                </p>
+            </div>
+        </div>
+        <app-carousal></app-carousal>
+    </section>
+
+
+
+    <section class="top">
+        <div class="row">
+            <div class="col-1"></div>
+            <div>
+                <p class="title">
+                    Tentgram Events
+                </p>
+                <p class="description">
+                    Browse supercool events from the Tentgram family.
+                </p>
+            </div>
+
+        </div>
+        <app-carousal1></app-carousal1>
+    </section>
+
+
+    <hr style="border: 1px solid #393e46; width:95%" class="top">
+
+    <div class="row">
+        <div class=" col-md-4">
+
+
+            <div class="vl">
+                <div>
+                    <img src="../assets/images/logo-dark.svg">
+                    <p>Tentgram is an outdoor recreational center which celebrates nature and it's inexplicable beauty.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class=" col-md-4 vl row">
+            <div class="col-md-1"></div>
+            <div class="col-md-2" style="text-align:left">
+                <br>
+                <p style="font-weight: bold">Pages</p><br>
+                <a href="http://localhost:4200/test">
+                    <p>Home</p>
+                </a>
+
+                <p>Wayanad</p>
+                <p>Munnar</p>
+                <p>Alappuzha</p>
+                <p>Himanchal</p>
+            </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-4" style="text-align:left"><br>
+                <p class="top">Terms & Conditions</p>
+                <p>Privacy Policy</p>
+                <p>FAQ</p>
+            </div>
+
+        </div>
+
+        <div class=" col-md-4 row">
+            <div class="col-md-5"></div>
+            <div style="margin-top:60px">
+                <p style="font-weight: bold">Social Media</p>
+                <span class="small">
+                  <a href="https://www.facebook.com/">
+                    <img src="../assets/images/fb-logo.svg" alt="Social" >
+                  </a>
+                    &nbsp;&nbsp;
+                  <a href="https://www.instagram.com/">
+                    <img src="../assets/images/insta-logo.svg" alt="Social">
+                  </a>
+
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="top">
+        <p style="text-align:center;">© 2020 Tentgram. All rights reserved.</p>
+    </div>
+</div>
