@@ -4,12 +4,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url("../../assets/images/tea-plant.jpg");
+    /* box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3); */
     outline: 400px solid rgba(0, 0, 0, 0.6) !important;
     outline-offset: -400px;
-}
-
-.down {
-    padding-top: 10px;
 }
 
 .place1 {

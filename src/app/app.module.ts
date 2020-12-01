@@ -25,6 +25,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CarousalComponent } from './carousal/carousal.component';
 import { Carousal1Component } from './carousal1/carousal1.component';
 import { ContactusComponent } from './contactus/contactus.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -42,7 +43,8 @@ import { ContactusComponent } from './contactus/contactus.component';
     BackgroundComponent,
     CarousalComponent,
     Carousal1Component,
-    ContactusComponent
+    ContactusComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

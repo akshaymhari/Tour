@@ -4,6 +4,7 @@ import { BackgroundComponent } from './background/background.component';
 import { CarousalComponent } from './carousal/carousal.component';
 import { Carousal1Component } from './carousal1/carousal1.component';
 import { ContactusComponent } from './contactus/contactus.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 import { HomeComponent } from './home/home.component';
@@ -22,6 +23,7 @@ const routes: Routes = [
   { path: 'carousal', component: CarousalComponent },
   { path: 'carousal1', component: Carousal1Component },
   { path: 'contact', component: ContactusComponent },
+  { path: 'footer', component: FooterComponent },
 
 ];
 
