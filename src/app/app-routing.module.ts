@@ -16,6 +16,7 @@ import { TestComponent } from './test/test.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
+  { path: 'home', component: HomeComponent },
   { path: 'test', component: TestComponent },
   { path: 'login', component: LoginSignUpComponent },
   { path: 't2', component: T2Component },
