@@ -5,7 +5,8 @@
 .border {
     border-radius: 25px;
     position: fixed;
-    background: rgba(18, 19, 18, 0);
+    /* background: rgba(18, 19, 18, 10); */
+    background: #61b15a;
 }
 
 .signup {
@@ -25,5 +26,9 @@
 }
 
 .header {
-    padding-top: 10px;
+    display: flex;
+}
+
+img {
+    height: 60px;
 }

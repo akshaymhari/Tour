@@ -1,10 +1,10 @@
 .top {
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 .vl {
     border-right: 1px solid #393e46;
-    height: 200px;
+    height: 250px;
 }
 
 .vl>div {
@@ -20,4 +20,8 @@
 
 .pad {
     padding-top: 40px;
+}
+
+img {
+    height: 60px;
 }
