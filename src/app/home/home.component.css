@@ -3,10 +3,8 @@
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-image: url("../../assets/images/tree.jpg"); */
-    /* box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3); */
-    /* outline: 400px solid rgba(0, 0, 0, 0.6) !important;
-    outline-offset: -400px; */
+    outline: 400px solid rgba(0, 0, 0, 0.6) !important;
+    outline-offset: -400px;
 }
 
 .video {
@@ -17,8 +15,47 @@
     z-index: -1;
 }
 
-.place1 {
-    margin: 20px;
+
+/* .left {
+    width: 100%;
+} */
+
+.white-space {
+    padding-left: 2%;
+    /* padding-right: 12%; */
+}
+
+
+/* .flex-vertical {
+    flex-direction: column;
+} */
+
+.display-flex {
+    display: flex;
+    /* justify-content: center; */
+}
+
+.banner-title {
+    font-family: 'Playfair Display Bold';
+    color: #fff;
+    font-weight: 900;
+    font-size: 5.5rem;
+    position: absolute;
+    /* margin: auto 0 0; */
+    padding-top: 100px;
+    padding-left: 90px;
+}
+
+.banner-description {
+    font-family: 'IBM Plex Sans';
+    font-size: 1.3rem;
+    line-height: 1.57;
+    color: #fff;
+    /* margin-top: 25rem; */
+    /* margin-bottom: 2.5rem; */
+    position: absolute;
+    padding-top: 180px;
+    padding-left: 90px;
 }
 
 .location {
@@ -81,5 +118,28 @@ img {
 }
 
 .loc-top {
-    margin-top: 160px;
+    margin-top: 50px;
+}
+
+.location-tabs {
+    position: absolute;
+    width: 90%;
+    height: 80px;
+    bottom: 0;
+    left: 5%;
+}
+
+.location-tabs>.location-tab {
+    width: 25%;
+    padding: 14px 40px;
+    cursor: pointer;
+}
+
+p {
+    margin-top: 0;
+    font-size: 16px;
+    font-family: 'Playfair Display Semi Bold';
+    margin-bottom: 2px;
+    color: #fff;
+    opacity: 1;
 }

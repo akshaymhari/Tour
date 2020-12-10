@@ -9,6 +9,9 @@ import { MDCRipple } from '@material/ripple';
 export class HomeComponent implements OnInit {
 
   public cards;
+  map = new Map<string, string>();
+  places:string;
+
   constructor() { }
 
 
@@ -43,9 +46,46 @@ export class HomeComponent implements OnInit {
       },
     ];
 
+    this.ChangeToAlapuzha();
 
   }
 
+  ChangeToAlapuzha(){
+    this.map.set('alapuzha', '../../assets/images/alapuzha.jpg');
+    this.places = this.map.get('alapuzha');
+  }
+
+
+  ChangeToKochi(){
+    this.map.set('kochi', '../../assets/images/kochi.jpg');
+    this.places = this.map.get('kochi');
+
+  }
+
+
+  ChangeToKottayam(){
+    this.map.set('kottayam', '../../assets/images/kottayam.jpg');
+    this.places = this.map.get('kottayam');
+
+  }
+
+  ChangeToMunnar(){
+    this.map.set('munnar', '../../assets/images/munnar.jpg');
+    this.places = this.map.get('munnar');
+
+  }
+
+  ChangeToWayanad(){
+    this.map.set('wayanad', '../../assets/images/wayanad.jpg');
+    this.places = this.map.get('wayanad');
+
+  }
+
+  ChangeToTrivandrum(){
+    this.map.set('trivandrum', '../../assets/images/trivandrum.jpg');
+    this.places = this.map.get('trivandrum');
+
+  }
 
 
 

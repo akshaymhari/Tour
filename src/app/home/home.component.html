@@ -1,44 +1,76 @@
 <div>
-    <div class="back">
-        <div>
-            <video class="video" loop muted autoplay oncanplay="this.play()" onloadedmetadata="this.muted = true">
-            <source src="../../assets/images/Wayanad.mp4" type="video/mp4">
-          </video>
-        </div>
+    <div class="back" style="background-image: url({{this.places}})">
+
+
         <div>
             <app-navbar></app-navbar>
         </div>
         <br><br>
-        <div class="place1 row">
-            <div class="col-1"></div>
-            <h2 class="head" style="margin-top: 50px;">Wayanad</h2>
+        <div class="display-flex white-space">
+            <div class="left">
+                <h1 class="banner-title" tabindex="0">Alappuzha</h1>
+
+                <h2 class="banner-description">
+                    Alappuzha is home to the beautiful backwaters. This city is located in the South Indian state of kerala. Among the backwaters, Canals, houseboats, lagoons and picturesque beaches indeed justify the name Venice of the East. It is a very famous holiday
+                    destination for honeymoon couples, families and people those who want to unwind the city life
+                </h2>
+            </div>
         </div>
-        <div class="place1 row">
-            <div class="col-1 "></div>
-            <p style="color:white; width: 552px;">
-                The scenic drive through the trail to reach both Thollayiram (900) Kandi and Aranamala, is every bit as intriguing and adventurous, even on a hot summer day weather inside the forest is cold and refreshing which makes both places a wonderland.
-            </p>
+
+
+        <div class=" location-tabs display-flex ">
+
+            <div class="location-tab active " (click)="ChangeToAlapuzha()">
+                <p>Alappuzha</p>
+                <p>Kainakary</p>
+            </div>
+
+            <div class="location-tab " (click)=" ChangeToKochi()">
+                <p>Kochi</p>
+                <p>Lakshmi Hills</p>
+            </div>
+
+            <div class="location-tab " (click)="ChangeToKottayam()">
+                <p>Kottayam</p>
+                <p>Kainakary</p>
+            </div>
+
+            <div class="location-tab " (click)="ChangeToMunnar()">
+                <p>Munnar</p>
+                <p>Lakshmi Hills</p>
+            </div>
+
+            <div class="location-tab " (click)="ChangeToWayanad()">
+                <p>Wayanad</p>
+                <p>900 Kandi, Aranamala</p>
+            </div>
+
+            <div class="location-tab " (click)="ChangeToTrivandrum()">
+                <p>Thiruvananthapuram</p>
+                <p>900 Kandi, Aranamala</p>
+            </div>
         </div>
     </div>
 
 
-    <section class=" loc-top">
-        <div class="row">
-            <div class="col-1"></div>
+    <section class=" loc-top ">
+        <div class="row ">
+            <div class="col-1 "></div>
             <div>
-                <p class="title">
+                <p class="title ">
                     Our Locations
                 </p>
-                <p class="description">
+                <p class="description ">
                     Browse our destinations for your holiday.
                 </p>
             </div>
         </div>
-        <div class="container">
+        <br>
+        <div class="container ">
             <div fxLayout="row ">
-                <div fxFlex="25%" *ngFor="let card of cards">
-                    <div class="example-card">
-                        <img [src]="card.img">
+                <div fxFlex="25% " *ngFor="let card of cards ">
+                    <div class="example-card ">
+                        <img [src]="card.img ">
                         <p>{{card.title}}</p>
                     </div>
                     <br>
@@ -47,14 +79,14 @@
         </div>
     </section>
 
-    <section class="top">
-        <div class="row">
-            <div class="col-1"></div>
+    <section class="top ">
+        <div class="row ">
+            <div class="col-1 "></div>
             <div>
-                <p class="title">
+                <p class="title ">
                     Popular Experiences
                 </p>
-                <p class="description">
+                <p class="description ">
                     Browse exciting, adventurous and fun-filled activities for your holiday.
                 </p>
             </div>
@@ -64,14 +96,14 @@
 
 
 
-    <section class="top">
-        <div class="row">
-            <div class="col-1"></div>
+    <section class="top ">
+        <div class="row ">
+            <div class="col-1 "></div>
             <div>
-                <p class="title">
-                    Tentgram Events
+                <p class="title ">
+                    FreeWibe Events
                 </p>
-                <p class="description">
+                <p class="description ">
                     Browse supercool events from the Tentgram family.
                 </p>
             </div>
