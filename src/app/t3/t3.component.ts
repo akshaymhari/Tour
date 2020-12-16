@@ -7,7 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class T3Component implements OnInit {
 
-   path:string= '../../assets/images/tree.jpg';
 
   constructor() { }
 
@@ -16,11 +15,9 @@ export class T3Component implements OnInit {
 
 
 
+
   }
 
-  first(){
-    this.path = '../../assets/images/pic04.jpg';
-  }
 
 
 

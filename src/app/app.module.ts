@@ -6,6 +6,8 @@ import { NgModule } from '@angular/core';
 
 
 
+
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -34,6 +36,8 @@ import { HeaderComponent } from './header/header.component';
 import { AlappuzhaComponent } from './alappuzha/alappuzha.component';
 import { TrivandrumComponent } from './trivandrum/trivandrum.component';
 import { KochiComponent } from './kochi/kochi.component';
+
+
 
 
 

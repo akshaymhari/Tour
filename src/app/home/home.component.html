@@ -1,21 +1,23 @@
 <div>
-    <div class="back" style="background-image: url({{this.places}})">
+    <div class="back" style="background-image: url({{this.images}})">
 
 
         <div>
             <app-navbar></app-navbar>
         </div>
         <br><br>
-        <div class="display-flex white-space">
-            <div class="left">
-                <h1 class="banner-title" tabindex="0">Alappuzha</h1>
+        <div class="row">
+            <div class="display-flex white-space col-md-4">
+                <div class="left">
+                    <h1 class="banner-title" tabindex="0">{{this.title}}</h1>
 
-                <h2 class="banner-description">
-                    Alappuzha is home to the beautiful backwaters. This city is located in the South Indian state of kerala. Among the backwaters, Canals, houseboats, lagoons and picturesque beaches indeed justify the name Venice of the East. It is a very famous holiday
-                    destination for honeymoon couples, families and people those who want to unwind the city life
-                </h2>
+                    <h2 class="banner-description">{{this.description}}</h2>
+                </div>
             </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-7"></div>
         </div>
+
 
 
         <div class=" location-tabs display-flex ">
